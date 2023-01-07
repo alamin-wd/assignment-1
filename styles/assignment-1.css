@@ -1,0 +1,260 @@
+* {
+    margin: 0px;
+    font-family: 'Work Sans';
+
+}
+
+.header {
+    background-image: url(../images/banner/banner1.png);
+    width: 1600px;
+    height: 808px;
+}
+
+.banner {
+    font-style: normal;
+    display: flex;
+}
+
+.banner-tittle {
+    font-weight: 700;
+    font-size: 65px;
+    width: 525px;
+    height: 228px;
+    text-align: right;
+    margin-left: 845px;
+    margin-top: 216px;
+    margin-right: 230px;
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 16px;
+    width: 494px;
+    height: 78px;
+    text-align: right;
+    line-height: 26px;
+    margin-left: 876px;
+    margin-top: 24px;
+
+}
+
+.banner-btn {
+    height: 64px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: 0px;
+    padding: 21px 25px;
+    margin-left: 1224px;
+    margin-top: 32px;
+}
+
+.previous-year {
+    display: flex;
+}
+
+.previous-year-tittle {
+    width: 288px;
+    height: 94px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-top: 300px;
+    margin-left: 87px;
+    text-align: left;
+}
+
+.previous-year-description {
+    margin-top: 24px;
+    margin-right: 322px;
+    margin-left: 87px;
+    width: 340px;
+    height: 104px;
+    line-height: 26px;
+    color: #444343;
+    text-align: left;
+
+}
+
+
+.bg-img {
+    display: flex;
+    width: 569px;
+    height: 723.3px;
+    margin: 131px 87px 130px 290px;
+}
+
+.list-item {
+    width: 349px;
+    height: 26px;
+    margin-top: 24px;
+    margin-right: 382px;
+    margin-left: 80px;
+    color: #444343;
+    text-align: left;
+}
+
+/*My Plan section styles */
+.plan-container {
+    width: 1140px;
+    height: 300px;
+    display: flex;
+    gap: 150px;
+    margin-left: 305px;
+    margin-right: 305px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.section-tittle {
+    align: top;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: auto;
+    height: 47px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-left: 724px;
+}
+
+.skill-tittle {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.skill-description {
+    font-weight: 500;
+    font-size: 16px
+}
+
+/*Gradient Section Styles*/
+.gradient-section {
+    background-image: url(../images/gradient2.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 1140px;
+    height: 300px;
+    border-radius: 8px;
+    margin-left: 250px;
+    margin-right: 230px;
+}
+
+.gradient-section-content {
+    width: 459px;
+    height: 182px;
+}
+
+.gradient-section-tittle {
+    width: 459px;
+    height: 94px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    margin: 59px 617px 24px 64px;
+}
+
+.gradient-section-btn {
+    width: 160px;
+    height: 64px;
+    padding: 5px;
+    margin-right: 916px;
+    margin-left: 64px;
+    margin-bottom: 59px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.btn-text {
+    color: #F15B22;
+}
+
+.footer-section {
+    background-color: #151414;
+    background: #151414;
+    width: 1600px;
+    height: 577px;
+    margin-top: 450px;
+}
+
+.footer-container {
+    display: flex;
+}
+
+.footer-tittle {
+    width: 148px;
+    height: 53px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    margin-bottom: 16px;
+}
+
+.footer-description {
+    width: 485px;
+    height: 78px;
+    margin-bottom: 15px;
+}
+
+.footer-left-text {
+    width: 485px;
+    height: 317px;
+    text-align: left;
+    color: #F8F8F8;
+    margin: 130px 130px 885px 230px;
+}
+
+.email {
+    margin-bottom: 16px;
+}
+
+.phone {
+    margin-bottom: 32px;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-right-text {
+    margin: 135px 230px 235px 330px;
+}
+
+.footer-btn-tittle {
+    color: #FFFFFF;
+    width: 123px;
+    height: 29px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    margin-bottom: 30px;
+}
+
+.submit-btn {
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 16px;
+}
+
+input {
+    width: 250px;
+    height: 55px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    padding-left: 21px;
+    border-radius: 5px;
+    
+}
